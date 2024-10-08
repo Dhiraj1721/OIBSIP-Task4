@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <link rel="stylesheet" href="C:\Users\dhiraj\Desktop\OIBSIP\OIBSIP-Task4\Login_Auth.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login </h2>
+        <p id="signUp">Doesn't have any account  <a href="sign up">Sign up</a></p>
+        <div class="input-det">
+        <label for="username">Enter Username </label> 
+        <input type="text" id="username" name="password" >
+    </div>
+    <div class="input-det">
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" name="password">
+    </div>
+        <button onclick="login()">Login</button>
+
+        <p id="message">Or login with</p>
+        <div class="social-login">
+            <img src="C:\Users\dhiraj\Desktop\OIBSIP\OIBSIP-Task4\Gmail_Logo.png" alt="Gmail Login" title="Login with Gmail" onclick="gmailLogin()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Login" title="Login with Facebook" onclick="facebookLogin()">
+        </div>
+    </div>
+<script src="C:\Users\dhiraj\Desktop\OIBSIP\OIBSIP-Task4\Login_Auth.js"></script>
+</body>
+</html>
